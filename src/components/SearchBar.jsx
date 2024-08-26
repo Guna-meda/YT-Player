@@ -10,7 +10,7 @@ const SearchBar = ({ handleSearch, handleKeyDown }) => {
   const { videoUrl, setVideoUrl } = useContext(VideoContext);
 
   return (
-    <SearchContainer className="container">
+    <SearchContainer className="container search-bar">
       <div className="row">
         <div className="col-md-8">
           <div className="input-group mb-3">
