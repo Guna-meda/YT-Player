@@ -62,7 +62,6 @@ function App() {
           return oldHistory;
         }
         const updatedHistory = [...oldHistory, { id: videoId }];
-        console.log("Updated history in handleSearch:", updatedHistory);
         return updatedHistory;
       });
       setCurrentVideo(videoId);

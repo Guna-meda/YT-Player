@@ -32,7 +32,6 @@ const HistoryContainer = styled.div`
 
 const History = ({ handleVideoClick, removeFromHistory }) => {
   const { history, setCurrentVideo } = useContext(VideoContext);
-  console.log("History in History component:", history);
 
   return (
     <HistoryContainer>
