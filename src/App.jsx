@@ -82,9 +82,15 @@ function App() {
   };
 
   const removeFromHistory = (videoId) => {
-    setHistory((prevHistory) =>
-      prevHistory.filter((video) => video.id !== videoId)
-    );
+    setHistory((prevHistory) => {
+      const updatedHistory = prevHistory.filter(
+        (video) => video.id !== videoId
+      );
+
+      localStorage.setItem("videoHistory", JSON.stringify(updatedHistory));
+
+      return updatedHistory;
+    });
   };
 
   const loadYouTubeAPI = () => {
