@@ -92,4 +92,8 @@ html {
   .search-bar {
     padding-left: 0px;
   }
+
+  .input-group {
+    width: 355px;
+  }
 }
