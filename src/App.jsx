@@ -112,6 +112,11 @@ function App() {
           removeFromHistory={removeFromHistory}
         ></History>
       </div>
+      <footer className="footer">
+        <a href="https://www.freepik.com/icons/speed">
+          Icon by Infinite Dendrogram
+        </a>
+      </footer>
     </Container>
   );
 }

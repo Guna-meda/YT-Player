@@ -81,6 +81,15 @@ html {
   align-items: center;
 }
 
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 95%;
+  overflow-x: hidden;
+
+  text-align: center;
+}
+
 @media only screen and (max-width: 768px) {
   .video-history {
     margin-left: 0px;
